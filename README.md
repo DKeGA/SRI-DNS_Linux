@@ -87,8 +87,11 @@ Dentro de este encontraremos varios registros a configurar:
     - Almacena información sobre un dominio o una zona.
 
 
+## Levantar y comprobar el servicio
 
+Una vez configurado todo el servicio procederemos a levantarlo, para ello nos situaremos en la carpeta donde este el fichero docker-compose.yml. Una vez en dicha carpeta usaremos el comando "docker-compose up".
 
+Una vez el servicio este levantado, para comprobar si funciona haremos un ping a la ip del servicio.
 
 
 
