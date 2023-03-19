@@ -71,7 +71,7 @@ Dentro del directorio de configuración encontraremos tres archivos
 
 En este directorio encontraremos un archivo de configuración llamado:
 
-* db.asir.com
+* db.asir.int
 
 Dentro de este encontraremos varios registros a configurar:
 
