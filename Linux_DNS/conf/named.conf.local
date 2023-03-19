@@ -1,0 +1,4 @@
+zone "asircastelao.int." {
+        type primary;
+        file "/var/lib/bind/db.asir.int";
+};
