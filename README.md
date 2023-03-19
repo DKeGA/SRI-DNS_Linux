@@ -1,6 +1,6 @@
 # SRI-DNS_Linux
 
-##Configuración de docker-compose.yml
+## Configuración de docker-compose.yml
 
 Para poder levantar el contenedor tendremos que crear un archivo docker-compose.yml el cual configuraremos de la siguiente forma:
 
@@ -57,5 +57,50 @@ Para poder levantar el contenedor tendremos que crear un archivo docker-compose.
         -bind9_subnet:
 
             -external: true
+
+
+## Ficheros de configuración
+
+Dentro del directorio de configuración encontraremos tres archivos 
+
+* named.conf
+* named.conf.local
+* named.conf.options
+
+## Configuración de las zonas
+
+En este directorio encontraremos un archivo de configuración llamado:
+
+* db.asir.com
+
+Dentro de este encontraremos varios registros a configurar:
+
+1. NS
+    - Indicca a donde ir a buscar la dirección IP de un dominio
+2. A
+    - Devuelve una dirección iPv4 de 32 bits que se usa para asignar nombres de host a una dirección IP
+3. CNAME
+    - Alias de un nombre
+4. TXT
+    - Indica un mensaje que asignemos 
+5. SOA
+    - Almacena información sobre un dominio o una zona.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
